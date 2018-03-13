@@ -15,11 +15,17 @@ public class Product {
 
 	@XmlElement
 	private int productId;
+	@XmlElement
 	private int sku;
+	@XmlElement
 	private String name;
+	@XmlElement
 	private String unitOfMeasure;
+	@XmlElement
 	private Float price;
+	@XmlElement
 	private Integer availableQuantity;
+	@XmlElement
 	private Catalog catalog;
 
 	public Product() {
